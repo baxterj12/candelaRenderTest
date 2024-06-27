@@ -1,0 +1,9 @@
+.circleContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+}
+
+.circle{
+    size: 10vw;
+}

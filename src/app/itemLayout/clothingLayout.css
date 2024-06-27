@@ -1,0 +1,50 @@
+.itemContainer{
+    flex-direction: row;
+    background-color: white;
+    overflow-x: hidden;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 3vw;
+}
+
+.firstCol {
+    width: 37vw;
+    margin-left: 5vw;
+}
+
+
+
+.secondCol {
+    width: 21vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1.75vw;
+}
+
+.thirdCol {
+    width: 25.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.thirdImg {
+    width: 25.5vw;
+    margin-right: 5vw;
+}
+
+.preOrderbutton{
+    background-color: black;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    margin-top: 1vw;
+    height: 40px;
+    border-radius: 10px;
+    margin-right: 5vw;
+}

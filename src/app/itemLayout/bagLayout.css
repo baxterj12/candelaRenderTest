@@ -1,0 +1,43 @@
+bagContainer{
+    flex-direction: column;
+    background-color: white;
+    overflow-x: hidden;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 3vw;
+}
+
+.bagImages{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1vw;
+}
+
+.firstBagCol {
+    width: 37vw;
+    margin-left: 5vw;
+    max-height: 90vh;
+}
+
+.secondBagCol{
+    width: 49.75vw;
+    margin-right: 5vw;
+    max-height: 90vh;
+}
+.preOrderBagbutton{
+    background-color: black;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    margin-top: 1vw;
+    height: 40px;
+    width: 25vw;
+    border-radius: 10px;
+    margin-right: 5vw;
+    margin-left: 70vw;
+}

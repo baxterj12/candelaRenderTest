@@ -1,0 +1,157 @@
+[
+    {
+      "name": "Pancha Pants",
+      "images": [
+        "items/pancha/panchaPants/image1.png",
+        "items/pancha/panchaPants/image2.png",
+        "items/pancha/panchaPants/image3.png",
+        "items/pancha/panchaPants/image4.png",
+        "items/pancha/panchaPants/image5.png",
+        "items/pancha/panchaPants/image6.png",
+        "items/pancha/panchaPants/image7.png"
+      ],
+      "desc": "These handmade low-waisted wide legged pants feature adorned ends with hand-sewn flower-like textile textures. Pants come with a zipper closure at the back and are made from 100% linen.",
+      "price": 180.00,
+      "shortName": "PanchaPants",
+      "colors": [
+        "#ACA090",
+        "#FCFCFC",
+        "#D5A5A5"
+      ],
+      "colorNames": [
+        "Beige",
+        "Cream",
+        "Light Pink"
+      ],
+      "sizes": [
+        "Medium","Small","Large"
+      ],
+      "status": "Pre-Order",
+      "itemType": "Pants",
+      "measurements": [
+        "Size S: Width 46 cm, Length 28 cm, Strap Length 42 cm",
+        "Size M: Width 50 cm, Length 29 cm, Strap Length 42 cm",
+        "Size L: Width 54 cm, Length 30 cm, Strap Length 42 cm"
+      ],
+      "process": "pants process",
+      "artist": "pants artist"
+    },
+    {
+      "name": "San Sebastian Jacket",
+      "images": [
+        "items/sanSebastian/sanSebastianJacket/image1.png",
+        "items/sanSebastian/sanSebastianJacket/image2.png",
+        "items/sanSebastian/sanSebastianJacket/image3.png",
+        "items/sanSebastian/sanSebastianJacket/image4.png",
+        "items/sanSebastian/sanSebastianJacket/image5.png",
+        "items/sanSebastian/sanSebastianJacket/image6.png",
+        "items/sanSebastian/sanSebastianJacket/image7.png"
+      ],
+      "desc": "Kimono style linen jacket with artisanal textile intervention on the sleeves. The artisanal textiles in our jackets come from artisans in San Sebastian.",
+      "price": 145.00,
+      "shortName": "SanSebastianJacket",
+      "colors": [
+        "#F38992"
+      ],
+      "colorNames": [
+        "Light Pink"
+      ],
+      "sizes": [
+        "One size fits all"
+      ],
+      "status": "Pre-Order",
+      "itemType": "Jacket",
+      "measurements": [
+        "Coming Soon"
+      ],      
+      "process": "jacket process",
+      "artist": "jacket artist"
+    },
+    {
+      "name": "Fringe Leather Bag",
+      "images": [
+        "items/bags/fringeLeather/image1.png",
+        "items/bags/fringeLeather/image2.png",
+        "items/bags/fringeLeather/image3.png",
+        "items/bags/fringeLeather/image4.png",
+        "items/bags/fringeLeather/image5.png"
+      ],
+      "desc": "This large bag is made of leather and features fringe detailing at the base. The handle is adjustable with a metal buckle. It has an artisanal strip closure that ties together. Made from 100% natural materials.",
+      "price": 175.00,
+      "shortName": "fringeLeatherBag",
+      "colors": [
+        "N/A"
+      ],
+      "colorNames": [
+        "N/A"
+      ],
+      "sizes": [
+        "N/A"
+      ],
+      "status": "Available",
+      "itemType": "Bag",
+      "measurements": [
+        "Coming Soon"
+      ],
+      "process": "bag process",
+      "artist": "bag artist"
+    },
+    {
+      "name": "Conacaste Bag",
+      "images": [
+        "items/bags/conacaste/image1.png",
+        "items/bags/conacaste/image2.png",
+        "items/bags/conacaste/image3.png",
+        "items/bags/conacaste/image4.png",
+        "items/bags/conacaste/image5.png"
+      ],
+      "desc": "This handbag features a hand-carved “conacaste” tree wood handle. The fabric has been hand-stitched to create volume and texture. Made from 100% natural materials.",
+      "price": 160.00,
+      "shortName": "conacasteBag",
+      "colors": [
+        "N/A"
+      ],
+      "colorNames": [
+        "N/A"
+      ],
+      "sizes": [
+        "N/A"
+      ],
+      "status": "Available",
+      "itemType": "Bag",
+      "measurements": [
+        "Coming Soon"
+      ],
+      "process": "bag process",
+      "artist": "bag artist"
+    },
+    {
+      "name": "demoPayment",
+      "images": [
+        "items/bags/fringeLeather/image1.png",
+        "items/bags/fringeLeather/image2.png",
+        "items/bags/fringeLeather/image3.png",
+        "items/bags/fringeLeather/image4.png",
+        "items/bags/fringeLeather/image5.png"
+      ],
+      "desc": "This large bag is made of leather and features fringe detailing at the base. The handle is adjustable with a metal buckle. It has an artisanal strip closure that ties together. Made from 100% natural materials.",
+      "price": 1.00,
+      "shortName": "demo",
+      "colors": [
+        "N/A"
+      ],
+      "colorNames": [
+        "N/A"
+      ],
+      "sizes": [
+        "N/A"
+      ],
+      "status": "Available",
+      "itemType": "Bag",
+      "measurements": [
+        "Coming Soon"
+      ],
+      "process": "bag process",
+      "artist": "bag artist"
+    }
+]

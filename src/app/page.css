@@ -1,0 +1,174 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    overflow-y: auto;
+    color: white;
+    overflow-x: hidden;
+}
+
+.logoImage {
+    height: auto;
+    width: auto;
+    transform: translateX(20%);
+
+}
+
+.videoPage {
+    width: 100vw;
+    max-height: 90vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    overflow-y: hidden;
+    position: relative;
+}
+
+.overlayLogo{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    opacity: 0.8;
+    width: 8vw;
+    top: 25%;
+    z-index: 10;
+}
+
+.muteButton{
+    color:white;
+    position: absolute;
+    background-color: transparent;
+    opacity: 0.8;
+    left: 0;
+    bottom: 0;
+    margin: 10px;
+    width: 5vw;
+    z-index: 10;
+}
+
+.storyText {
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    gap: 1.5vw;
+}
+
+.storyHeader {
+    margin-top: 2vw;
+    font-size: 2.5vw;
+    font-weight: 600;
+    justify-content: left;
+    font-family: 'Inter', sans-serif;
+    margin-left: 5vw;
+}
+
+
+.storyParagraphs {
+    margin-left: 3vw;
+    margin-right: 3vw;
+    font-size: 1.5vw;
+    font-weight: lighter;
+}
+
+.slogan {
+    text-align: center;
+    font-size: 2.5vw;
+    line-height: 1.2;
+    margin-bottom: 2vw;
+}
+
+.availables{
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    gap: 1.5vw;
+}
+
+.availableNames{
+    font-size: 1.5vw;
+    margin-left: 5vw;
+    margin-bottom: 1vw;
+    font-family: 'Inter', sans-serif;
+}
+
+.preorders{
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    gap: 1.5vw;
+}
+
+.preorderNames{
+    font-size: 1.5vw;
+    margin-left: 5vw;
+    margin-bottom: 1vw;
+    font-family: 'Inter', sans-serif;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .icon{
+        font-size: 11vw;
+    }
+
+
+    .searchInstaBag {
+        gap: 1vw;
+        margin-right: 20px;
+    }
+
+    .logoImage {
+        margin-left: 0vw;
+        width: 35vw;
+    }
+    
+
+    .storyParagraphs {
+        font-size: 4vw;
+    }
+
+    .storyText {
+        gap: 3vw;
+    }
+
+    .storyHeader{
+        font-size: 5vw;
+        margin-top: 4vw;
+    }
+
+    .slogan{
+        font-size: 7vw;
+        margin-bottom: 4vw;
+    }
+
+    .availableNames{
+        font-size: 4vw;
+    }
+
+    .preorderNames{
+        font-size: 4vw;
+    }
+}

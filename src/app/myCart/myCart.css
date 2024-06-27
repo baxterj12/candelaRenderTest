@@ -1,0 +1,109 @@
+.cartContainer{
+    font-family: 'Inter', sans-serif;
+    background-color: white;
+}
+
+.yourCart{
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    margin-left: 7vw;
+    font-size: 3vw;
+    font-weight: 300;
+}
+
+.circleOutline{
+    height: 36px;
+    width: 36px;
+}
+
+.cartCircle{
+    font-size: 36px;
+}
+
+.whitespace{
+    background-color: white;
+    color: white;
+    width: 4vw;
+}
+
+.divider{
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    width: 100vw;
+    height: 2px;
+    background-color: gainsboro;
+}
+
+.singleItem{
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    justify-content: space-between;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    align-items: center;
+    font-size: 1.5vw;
+    font-weight: 300;
+
+}
+
+.cartImage{
+    width: 8vw;
+}
+
+.totals{
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    justify-content: center;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    gap: 10vw;
+    font-size: 2vw;
+    font-weight: 300;
+}
+
+.checkoutButton{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3vw;
+    font-size: 3vw;
+    border-radius: 10px;
+    border-width: 2px;
+    background-color: black;
+    color: white;
+    font-weight: 300;
+    width: 20vw;
+    margin-left: 40vw;
+}
+
+@media screen and (max-width: 768px) {
+
+    .circleOutline{
+        height: 3vw;
+        width: 3vw;
+    }
+
+    .yourCart{
+        font-size: 5vw;
+    }
+
+    .cartCircle{
+        font-size: 3vw;
+    }
+
+    .singleItem{
+        font-size: 2.5vw;
+    }
+
+    .totals{
+        font-size: 3vw;
+    }
+
+    .whitespace{
+        width: 5.5vw;
+    }
+
+}
+

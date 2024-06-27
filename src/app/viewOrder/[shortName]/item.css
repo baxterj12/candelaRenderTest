@@ -1,0 +1,184 @@
+.preorderContainer{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.images{
+    flex-direction: row;
+    display: flex;
+    margin-left: 5vw;
+    margin-top: 2vw;
+    align-items: stretch;
+    gap: 2vw;
+    width: 45vw;
+}
+
+.image1{
+    max-height: 80vh;
+    width: 27vw;
+}
+
+.imageCol{
+    max-height: 80vh;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    width: 15vw;
+}
+
+.imageInCol{
+ max-height: 39vh;
+}
+
+.text{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2vw;
+    margin-top: 2vw;
+    gap: 1vw;
+    font-family: 'Inter', sans-serif;
+    color: black;
+}
+
+.name{
+    font-size:3vw;
+    font-weight: 600;
+    color: black;
+}
+
+.desc{
+    width: 40vw;
+    font-weight: 550;
+    font-size: 1.5vw;
+    color: black;
+}
+
+.price{
+    color: black;
+    size: 1vw;
+}
+
+.button {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 40px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: black;
+    width: 40vw;
+    font-family: 'Inter', sans-serif;
+}
+
+.confirmation{
+    font-family: 'Inter', sans-serif;
+    margin-top: 2vw;
+    font-size: 2vw;
+    color: black;
+}
+
+.disclaimer{
+    width: 40vw;
+    color: #828282;
+    font-size: 1.25vw;
+}
+
+.nameAndChevron{
+    display: flex;
+    flex-direction: row;
+    width: 30vw;
+    justify-content: space-between;
+    font-size: 1vw;
+    margin-top: 1vw;
+    font-weight: bold;
+    cursor: pointer;
+    color: black;
+}
+
+.additionalInfo{
+    font-size: 1vw;
+    width: 40vw;
+    color: black;
+}
+
+.chevrons{
+    color: grey;
+    font-size: 1vw;
+}
+
+.preorderBuffer{
+    height: 5vw;
+}
+
+@media screen and (max-width: 768px) {
+
+    .preorderContainer{
+        flex-direction: column;
+    }
+
+    .images{
+        width: 100vw;
+    }
+
+    .image1{
+        width:54vw;
+    }
+
+    .imageCol{
+        width: 34vw;
+    }
+
+    .imageInCol{
+        width: 34vw;
+    }
+
+    .text {
+        gap: 3vw;
+        margin-left: 5vw;
+    }
+
+    .name{
+        font-size: 6vw;
+    }
+
+    .price{
+        font-size: 5vw;
+    }
+
+    .desc{
+        font-size: 4vw;
+        width: 90vw;
+        margin-right: 2vw;
+    }
+
+    .confirmation {
+        font-size: 5vw;
+    }
+
+    .disclaimer{
+        font-size: 4vw;
+        width: 90vw;
+        margin-right: 2vw;
+        margin-bottom: 5vw;
+    }
+
+    .nameAndChevron{
+        font-size: 4vw;
+        width: 80vw;
+    }
+    
+    .additionalInfo{
+        font-size: 3vw;
+        width: 90vw;
+    }
+    
+    .chevrons{
+        color: grey;
+        font-size: 4vw;
+    }
+}

@@ -1,0 +1,10 @@
+.preorderItemsHeader{
+    margin-left: 5vw;
+    font-size: 4vw;
+    font-weight: 300;
+    font-family: 'Inter', sans-serif;
+}
+
+.preorderItemsPageContainer{
+    background-color: white;
+}
