@@ -18,15 +18,29 @@ export async function POST(req, res) {
   console.log("POST request received");
   try {
     const { cartItems, totalCost} = await req.json();
+    const lineItems = cartItems.map(item => {
+      let itemName = item.product.name;
+      if (item.product.colors[0] !== "N/A") {
+        itemName += " " + item.colorName
+      }
+      if (item.product.sizes[0] !== "N/A" && item.product.sizes[0] !== "One size fits all") {
+        itemName += " " + item.size
+      }
+
+      return {
+          name: itemName, // Constructed name based on conditions
+          quantity: "1", // Assuming each item has a 'quantity' property
+          basePriceMoney: {
+              amount: item.product.price * 100, // Assuming each item has a 'price' property
+              currency: 'USD'
+          }
+      };
+    });
     const response = await checkoutApi.createPaymentLink({
       idempotencyKey: new Date().getTime().toString(),
-      quickPay: {
-        name: cartItems,
-        priceMoney: {
-          amount: totalCost * 100,
-          currency: 'USD'
-        },
-        locationId: process.env.SQUARE_LOCATION_ID
+      order: {
+        locationId: process.env.SQUARE_LOCATION_ID,
+        lineItems: lineItems
       },
       checkoutOptions: {
         askForShippingAddress: true,
