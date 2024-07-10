@@ -124,34 +124,5 @@
       ],
       "process": "bag process",
       "artist": "bag artist"
-    },
-    {
-      "name": "demoPayment",
-      "images": [
-        "items/bags/fringeLeather/image1.png",
-        "items/bags/fringeLeather/image2.png",
-        "items/bags/fringeLeather/image3.png",
-        "items/bags/fringeLeather/image4.png",
-        "items/bags/fringeLeather/image5.png"
-      ],
-      "desc": "This large bag is made of leather and features fringe detailing at the base. The handle is adjustable with a metal buckle. It has an artisanal strip closure that ties together. Made from 100% natural materials.",
-      "price": 1.00,
-      "shortName": "demo",
-      "colors": [
-        "N/A"
-      ],
-      "colorNames": [
-        "N/A"
-      ],
-      "sizes": [
-        "N/A"
-      ],
-      "status": "Available",
-      "itemType": "Bag",
-      "measurements": [
-        "Coming Soon"
-      ],
-      "process": "bag process",
-      "artist": "bag artist"
     }
 ]
