@@ -14,8 +14,6 @@
     margin-left: 5vw;
 }
 
-
-
 .secondCol {
     width: 21vw;
     display: flex;
@@ -47,4 +45,32 @@
     height: 40px;
     border-radius: 10px;
     margin-right: 5vw;
+}
+
+@media screen and (max-width: 768px) {
+
+    .itemContainer {
+        flex-direction: column;
+    }
+
+    .firstCol {
+        width: 90vw;
+        height: auto;
+    }
+
+    .secondCol {
+        display: none;
+    }
+
+    .thirdImg{
+        display: none;
+    }
+
+    .preOrderbutton{
+        width: 25vw;
+        margin-right: 5vw;
+        margin-left: 70vw;
+    }
+
+
 }
