@@ -1,4 +1,3 @@
-
 'use client'
 import react, {useState} from 'react';
 import './page.css';
