@@ -1,0 +1,77 @@
+.aboutUsContainer {
+    background-color: white;
+}
+
+.centerer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.textLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    margin-top: 3vw;
+    min-width: 200px;
+    margin-bottom: 3vw;
+}
+
+.auheader {
+    font-size: 2vw;
+    font-weight: 550;
+    margin-left: 10vw;
+    margin-bottom: 2vw;
+
+}
+
+.imgAndText {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    gap: 10vw;
+}
+
+.aboutus1 {
+    width: 40vw;
+}
+
+.aboutus1text {
+    width: 40vw;
+    font-weight: 300;
+    font-size: 2vw;
+}
+
+.allcapspurposewear {
+    margin-top: 3vw;
+    font-size: 3vw;
+    margin-bottom: 3vw;
+    font-weight: bold;
+}
+
+.aboutus2text {
+    width: 40vw;
+    font-weight: 300;
+    font-size: 2vw;
+    gap: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.aboutus2headers {
+    font-size: 2.5vw;
+    font-weight: 550;
+}
+
+@media screen and (max-width: 768px) {
+
+    .auheader {
+        font-size: 4vw;
+    }
+
+}
