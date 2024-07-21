@@ -26,12 +26,14 @@ export default function AvailableItems() {
                 .map((product, index) => (
                 <div key={index}>
                     <p className="availableNames">{product.name}</p>
-                    {product.itemType==="Bag" ?
+                    {/*{product.itemType==="Bag" ?
                     <BagLayout images={product.images} name={product.name} desc={product.desc}
                     price={product.price} shortName={product.shortName} status={product.status}/> :
                     <ClothingLayout images={product.images} name={product.name} desc={product.desc}
                     price={product.price} shortName={product.shortName} status={product.status} />
-                    }
+                    }*/}
+                    <BagLayout images={product.images} name={product.name} desc={product.desc}
+                    price={product.price} shortName={product.shortName} status={product.status}/>
                 </div>
                 ))}
         </div>

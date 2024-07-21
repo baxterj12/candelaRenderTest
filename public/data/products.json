@@ -124,5 +124,66 @@
       ],
       "process": "bag process",
       "artist": "bag artist"
+    },
+    {
+      "name": "Pancha Crop",
+      "images": [
+        "items/pancha/panchaCrop/image1.png",
+        "items/pancha/panchaCrop/image2.png",
+        "items/pancha/panchaCrop/image3.png",
+        "items/pancha/panchaCrop/image4.png",
+        "items/pancha/panchaCrop/image5.png"
+      ],
+      "desc": "This top features an open-chest with a seed button closure puffed sleeves. Made with white textured fabric. ",
+      "price": 90.00,
+      "shortName": "panchaCrop",
+      "colors":  [
+        "#FFFFFF"
+      ],
+      "colorNames": [
+        "White"
+      ],
+      "sizes": [
+        "Medium","Small","Large"
+      ],
+      "status": "Available",
+      "itemType": "Top",
+      "measurements": [
+        "Size S: Width 46 cm, Length 31 cm, Sleeve Length 18 cm",
+        "Size M: Width 50 cm, Length 33 cm, Sleeve Length 20 cm",
+        "Size L: Width 54 cm, Length 35 cm, Sleeve Length 22 cm"
+      ],
+      "process": "crop process",
+      "artist": "crop artist"
+    },
+    {
+      "name": "Pancha Slit Skirt",
+      "images": [
+        "items/pancha/panchaSlitSkirt/image1.png",
+        "items/pancha/panchaSlitSkirt/image2.png",
+        "items/pancha/panchaSlitSkirt/image3.png",
+        "items/pancha/panchaSlitSkirt/image4.png",
+        "items/pancha/panchaSlitSkirt/image5.png"
+      ],
+      "desc": "This long skirt is fitted at the waist and features side slits, with a side zipper closure. Made from white textured fabric.",
+      "price": 142.00,
+      "shortName": "panchaSlitSkirt",
+      "colors":  [
+        "#FFFFFF"
+      ],
+      "colorNames": [
+        "White"
+      ],
+      "sizes": [
+        "Medium","Small"
+      ],
+      "status": "Available",
+      "itemType": "Skirt",
+      "measurements": [
+        "Size S: Waist 74 cm, Length 88 cm",
+        "Size M: Waist 78 cm, Length 90 cm"
+      ],
+      "process": "skirt process",
+      "artist": "skirt artist"
     }
 ]
